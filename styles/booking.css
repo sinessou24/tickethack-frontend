@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-image: url(../images/tgv_inoui.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+#header a{
+    text-decoration: none;
+}
+
+#logo{
+    margin-left: 30px;
+    color: #248315;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+nav a{
+    margin-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: black;
+    text-decoration: none;
+}
+
+#container{
+    padding-top: 50vh;
+    }
+
+#cards-container{
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 10px;
+    width: 30vw;
+    text-align: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+#title h3{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#card_trips{
+    width: 80%;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+h4{
+    padding-top: 20px;
+    color: #248315;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-top: 1.5px solid black;
+}
