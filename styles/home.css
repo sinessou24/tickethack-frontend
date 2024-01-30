@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+#header{
+display: inline-flex;
+height: 144px;
+align-items: center;
+gap: 948px;
+flex-shrink: 0;
+background-color: #fff;
+}
+
+nav{
+height: 24px;
+justify-content: center;
+align-items: flex-start;
+gap: 61px;
+}
+
+#container{
+    background-image: url(/);
+}
