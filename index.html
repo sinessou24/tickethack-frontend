@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tickethack</title>
     <link rel="stylesheet" href="styles/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <div id="header">
-    <h1>Tickethack</h1>
+    <h1 id="logo">Tickethack</h1>
     <nav>
         <ul>
-            <span class="cart">Cart</span>
-            <span class="Bookings">Bookings</span>
+            <a href="wwww.google.fr" class="cart">Cart</a>
+            <a href="wwww.google.fr" class="Bookings">Bookings</a>
         </ul>
     </nav>
 </div>
@@ -23,12 +26,19 @@
     </div>
     <div id="cards-container">
         <div id="card_search">
-            <input id="departure" type="text">
-            <input id="arrival" type="text">
-            <input id="date" type="text">
-            <button id="search_button"></button>
+            <div id="form">
+                <div id="trip_input">
+                    <input id="departure" type="text" placeholder="Departure">
+                    <input id="arrival" type="text" placeholder="Arrival">
+                </div>
+                <input id="date" type="text">
+            </div>
+            <button id="search_button">search</button>
         </div>
-        <div id="card_dispo"></div>
+        <div id="card_dispo">
+            <img class="train" src="./images/train.png" alt="img_de_train">
+           <p class="slogan">it's time to book to your next trip</p>
+        </div>
     </div>
 </div>
 

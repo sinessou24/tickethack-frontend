@@ -1,23 +1,150 @@
 body{
     margin: 0;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #header{
-display: inline-flex;
-height: 144px;
-align-items: center;
-gap: 948px;
-flex-shrink: 0;
-background-color: #fff;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
 }
 
-nav{
-height: 24px;
-justify-content: center;
-align-items: flex-start;
-gap: 61px;
+
+#logo{
+    margin-left: 30px;
+    color: #248315;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+nav a{
+    margin-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: black;
+    text-decoration: none;
+}
+
+#title{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#title h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#title span{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 #container{
-    background-image: url(/);
+    width: 100vw;
+    height: 88vh;
+    align-items: center;
+}
+
+#cards-container{
+    display: flex;
+    justify-content:center;
+    height: 523px;
+    align-items: center;
+    gap: 150px;
+    flex-shrink: 0;
+}
+
+#card_search{
+    text-align: center;
+    width: 320px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+#form{
+padding-top: 30px;
+}
+
+#date{
+    margin-top: 25%;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #f6efef;
+    padding-left: 15px;
+}
+
+#departure, #arrival{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #f6efef;
+    padding-left: 15px;
+    margin: 3px;
+}
+
+#search_button{
+    color: white;
+    margin-top: 30%;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #248315;
+}
+
+#card_dispo{
+    width: 320px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+#card_dispo{
+    width: 320px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.train {
+    margin-top: 50px;
+    width: 256px;
+    height: 256px;
+}
+
+.slogan{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
