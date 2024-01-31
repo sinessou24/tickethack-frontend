@@ -43,7 +43,17 @@ nav a{
     padding-top: 50vh;
     }
 
+#cards-empty{
+        background-color: whitesmoke;
+        margin: auto;
+        padding: 5px 5vw;
+        width: 50vw;
+        text-align: center;
+        flex-shrink: 0;
+}
+
 #cards-container{
+    display: none;
     background-color: whitesmoke;
     margin: auto;
     padding: 5px 5vw;
@@ -52,7 +62,7 @@ nav a{
     flex-shrink: 0;
 }
 
-#title h3{
+.title{
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;    
@@ -79,7 +89,7 @@ nav a{
 
 #payment{
     margin: auto;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     padding: 5px 5vw;
