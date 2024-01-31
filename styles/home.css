@@ -19,7 +19,7 @@ body{
 
 #logo{
     margin-left: 30px;
-    color: #248315;
+    color: #469E86;
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-style: normal;
@@ -128,7 +128,7 @@ padding-top: 30px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background-color: #248315;
+    background-color: #469E86;
 }
 
 #card_dispo{
@@ -152,7 +152,7 @@ padding-top: 30px;
     margin-top: 50px;
     width: 256px;
     height: 256px;
-    border-bottom: 2px solid #248315;
+    border-bottom: 2px solid #469E86;
 }
 
 .slogan{
